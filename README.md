@@ -4,7 +4,7 @@
 import pandas as pd This imports the Pandas library, which is essential for data manipulation and analysis in Python.
 
 #### 2.Reading the CSV File: 
-store = pd.read_csv(r'C:\Users\USER\OneDrive\Desktop\Data Science & Ai\2 & 5 Aug class\5th - pandas\5th - pandas\Sample - Superstore_Orders.csv') This line reads the data from a CSV file into a Pandas DataFrame called store. The r before the file path makes it a raw string, which is good practice for Windows file paths.
+store = pd.read_csv() This line reads the data from a CSV file into a Pandas DataFrame called store. The r before the file path makes it a raw string, which is good practice for Windows file paths.
 
 #### 3.Displaying the DataFrame: 
 store (or print(store)) This displays the entire DataFrame, which can be useful for small datasets but less so for large ones.
@@ -52,6 +52,7 @@ Selecting Single and Multiple Columns:
 #### 15.Slicing with Step: 
 store[0:100:10] Selects rows from index 0 to 100 with a step of 10 (every 10th row).
 
-Selecting a single row using slicing store[10:11] selects the row at index 10.
+#### Selecting a single row using slicing 
+store[10:11] selects the row at index 10.
 
-These steps are typical for initial data exploration and preparation. You were checking for missing values, understanding data types, selecting columns, and creating subsets of your data, all of which are crucial before moving on to more advanced analysis.
+##### These steps are typical for initial data exploration and preparation. I were checking for missing values, understanding data types, selecting columns.
