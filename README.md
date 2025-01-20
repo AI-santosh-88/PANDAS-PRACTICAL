@@ -1,4 +1,4 @@
-### I did a pratical on Data Analysis method using pandas dataframe.here's a breakdown of the steps you were taking in your initial data exploration with Pandas:
+### I did a pratical on Data Analysis  using [Pandas - Dataframe].here's a breakdown of the steps you were taking in your initial data exploration with Pandas:
 
 #### 1.Importing Pandas: 
 import pandas as pd This imports the Pandas library, which is essential for data manipulation and analysis in Python.
